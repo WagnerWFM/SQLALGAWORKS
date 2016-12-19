@@ -24,4 +24,12 @@ create table professor (
 
 select * from professor;
 
+create table curso (
+	id bigint primary key auto_increment,
+    disciplina varchar(50),
+    quantidade_horas time
+
+)engine=InnoDB;
+
 --INSERIR DADOS NA TABELA
+
