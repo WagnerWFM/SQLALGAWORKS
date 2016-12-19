@@ -43,8 +43,9 @@ insert into professor (nome, idade, endereco, data_nascimento, horario_entrada)
 insert into curso ( disciplina, quantidade_horas)
 	values ('Banco de dados 1', '160');
     
-
-    
+select * from aluno;
+select * from professor;
+select * from curso;
     
     
     
