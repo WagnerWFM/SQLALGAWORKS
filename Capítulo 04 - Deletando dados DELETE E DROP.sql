@@ -30,9 +30,9 @@ drop table teste;
 -- sem necessidade de passar id/key desmarcar: Edit -> Preferences -> SQL Editor -> desmarcar a checkbox: Safe update.
 -- forbit UPDATE and DELETES with no KEy Where...
 
-delete from teste;	
+delete from teste;	-- esse modo precisa desabilitar a opção acima.
 
-delete from teste
+delete from teste	-- nesse não precisa.
 	where id = 2;
     
 
