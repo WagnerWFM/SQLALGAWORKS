@@ -21,12 +21,21 @@ select * from teste;
 -- drop: Apaga schema/base de dados ou tabelas.
 drop table teste;
 
--- delete: Apaga linhas da tabela através de condições where. Caso for apagar todas as linhas
--- da tabela, é recomendável usar o comando TRUNCATE, pois é mais rápido.
--- Observe que drop apaga ou schema ou tabela e delete e truncate apaga linhas(conteúdo).
+
+/* delete: Apaga linhas da tabela através de condições where. Caso for apagar todas as linhas
+ da tabela, é recomendável usar o comando TRUNCATE, pois é mais rápido.
+ Observe que drop apaga ou schema ou tabela e delete e truncate apaga linhas(conteúdo).
+*/
+-- Abaixo apaga dados/linhas da tabela e não a tabela. Para habilitar comando delete e update
+-- sem necessidade de passar id/key desmarcar: Edit -> Preferences -> SQL Editor -> desmarcar a checkbox: Safe update.
+-- forbit UPDATE and DELETES with no KEy Where...
+
+delete from teste;	
 
 delete from teste
 	where id = 2;
+    
+
 
 /*
 Diferença entre TRUNCATE e DELETE
