@@ -1,8 +1,9 @@
 -- Alterando tabela
 
 /*
-Comando ALTER funciona para adicionar colunas, chaves estrangeiras e restrições por exemplo,
-conforme modelo abaixo. Para atualizar campo usamos o comando UPDATE.
+Comando ALTER funciona para adicionar colunas,alterar nome de tabela, chaves estrangeiras e
+ restrições por exemplo,conforme modelo abaixo. Para atualizar campo usamos o comando UPDATE.
+	Comando alterar tabela: ALTER TABLE nome_da_table RENAME novo_nome
 */
 
 create database escola_ingles;
