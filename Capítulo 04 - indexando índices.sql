@@ -11,7 +11,8 @@ alter table aluno
 
 /* 
 explain apenas didático para mostrar mais informações. Para saber se a coluna está indexada,
-basta com o código abaixo verificar se a coluna type = ref, se tiver all ainda não foi indexada.
+basta com o código abaixo (usando where com qualquer campo) verificar se a coluna type = ref,
+ se tiver all ainda não foi indexada.
 */
 
 explain select * from aluno
