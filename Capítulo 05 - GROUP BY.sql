@@ -16,11 +16,11 @@ Abaixo:
 select status
     , sum(valor_total) total_vendas
 	from matricula
-    group by status;
+    group by status;	-- group by sempre no final.
     
 select forma_pagamento
 	 , status
      , sum(valor_total)
     from matricula
     where data_matricula >= '2016-01-01'
-    group by forma_pagamento;
+    group by forma_pagamento;	-- group by sempre no final.
