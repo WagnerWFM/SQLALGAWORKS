@@ -1,5 +1,10 @@
 -- Alterando tabela
 
+/*
+Comando ALTER funciona para adicionar colunas, chaves estrangeiras e restrições por exemplo,
+conforme modelo abaixo. Para atualizar campo usamos o comando UPDATE.
+*/
+
 create database escola_ingles;
 use escola_ingles;
 
